@@ -272,14 +272,14 @@ process.once('SIGTERM', () => bot.stop('SIGTERM'));
 
 //template
 
-//message N
-const Keyboard_N = [
-    [ { text: '***', callback_data: 'go_to_N+1' } ]
-    , [ Markup.button.url("Пройти тест ОППР", "https://psy-stop.ru/test-oppr/") ]
-];
+// //message N
+// const Keyboard_N = [
+//     [ { text: '***', callback_data: 'go_to_N+1' } ]
+//     , [ Markup.button.url("Пройти тест ОППР", "https://psy-stop.ru/test-oppr/") ]
+// ];
  
-bot.action('go_to_N', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Рутина месяца.mp3'}).then(() => {
-        ctx.replyWithHTML(posts.post3, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_N })});
-    });
-} );
+// bot.action('go_to_N', (ctx) => {
+//     ctx.replyWithAudio({ source: './Audio/Рутина месяца.mp3'}).then(() => {
+//         ctx.replyWithHTML(posts.post3, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_N })});
+//     });
+// } );
