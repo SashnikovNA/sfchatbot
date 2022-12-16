@@ -24,7 +24,7 @@ const Keyboard_2 = [[
     { text: 'К практике', callback_data: 'go_to_3' }]];
 
 bot.action('go_to_2', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Resourcefulness determination.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Resourcefulness determination.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post2, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_2 })});
     });
 } );
@@ -34,7 +34,7 @@ const Keyboard_3 = [[
     { text: 'Практика «Рутина месяца»', callback_data: 'go_to_4' }]];
     
 bot.action('go_to_3', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Рутина месяца.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Рутина месяца.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post3, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_3 })});
     });
 } );
@@ -60,7 +60,7 @@ const Keyboard_5 = [
 ];
     
 bot.action('go_to_5', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Определяем свой уровень ресурсности.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Определяем свой уровень ресурсности.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post5, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_5 })});
     });
 } );
@@ -70,7 +70,7 @@ const Keyboard_6 = [[
     { text: 'Шкала психологического стресса', callback_data: 'go_to_7' }]];
     
 bot.action('go_to_6', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Обсудим результаты.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Обсудим результаты.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post6, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_6 })});
     });
 } );
@@ -89,7 +89,7 @@ const Keyboard_8 = [[
     { text: 'Двигаемся дальше', callback_data: 'go_to_9' }]];
     
 bot.action('go_to_8', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Неочевидные угрозы потери ресурса.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Неочевидные угрозы потери ресурса.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post8, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_8 })});
     });
 } );
@@ -102,7 +102,7 @@ const Keyboard_9 = [
 ];
  
 bot.action('go_to_9', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/О физических ресурсах.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/О физических ресурсах.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post9, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_9 })});
     });
 } );
@@ -113,7 +113,7 @@ const Keyboard_10 = [
 ];
  
 bot.action('go_to_10', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/О внешних средовых ресурсах.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/О внешних средовых ресурсах.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post10, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_10 })});
     });
 } );
@@ -124,7 +124,7 @@ const Keyboard_11 = [
 ];
  
 bot.action('go_to_11', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/О копинг стратегиях.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/О копинг стратегиях.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post11, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_11 })});
     });
 } );
@@ -134,7 +134,7 @@ const Keyboard_12_1 = [
     [ { text: 'Шпаргалка - колесо эмоций', callback_data: 'go_to_12_2' } ]];
  
 bot.action('go_to_12_1', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Эмоциональные ресурсы.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Эмоциональные ресурсы.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post12_1, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_12_1 })});
     });
 } );
@@ -154,7 +154,7 @@ const Keyboard_13 =
 [[ { text: 'Личностные ресурсы', callback_data: 'go_to_14' } ]];
  
 bot.action('go_to_13', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Когнитивные ресурсы.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Когнитивные ресурсы.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post13, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_13 })});
     });
 } );
@@ -168,7 +168,7 @@ const Keyboard_14 = [
 ];
  
 bot.action('go_to_14', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Личностные ресурсы.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Личностные ресурсы.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post14, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_14 })});
     });
 } );
@@ -179,7 +179,7 @@ const Keyboard_15 = [
 ];
  
 bot.action('go_to_15', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Социальные ресурсы.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Социальные ресурсы.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post15, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_15 })});
     });
 } );
@@ -196,7 +196,7 @@ bot.action('go_to_16', (ctx) => {
 const Keyboard_17 = [ [ { text: 'Давайте о приятном? Хобби', callback_data: 'go_to_18' } ]];
  
 bot.action('go_to_17', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Результаты упражнения.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Результаты упражнения.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post17, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_17 })});
     });
 } );
@@ -205,7 +205,7 @@ bot.action('go_to_17', (ctx) => {
 const Keyboard_18 = [[ { text: 'Ценностные ресурсы', callback_data: 'go_to_19' } ]];
  
 bot.action('go_to_18', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/О Хобби.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/О Хобби.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post18, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_18 })});
     });
 } );
@@ -214,7 +214,7 @@ bot.action('go_to_18', (ctx) => {
 const Keyboard_19 = [ [ { text: 'Вопросы для задания', callback_data: 'go_to_20' } ]];
  
 bot.action('go_to_19', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/О ценностных ресурсах.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/О ценностных ресурсах.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post19, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_19 })});
     });
 } );
@@ -230,7 +230,7 @@ ctx.replyWithHTML(posts.post20, {reply_markup: JSON.stringify({ inline_keyboard:
 const Keyboard_21 = [[ { text: 'Перейти к третьей части практики', callback_data: 'go_to_22' } ]];
  
 bot.action('go_to_21', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Инструкция для второй части.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Инструкция для второй части.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post21, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_21 })});
     });
 } );
@@ -239,7 +239,7 @@ bot.action('go_to_21', (ctx) => {
 const Keyboard_22 = [[ { text: 'Перейти к четвертой части практики', callback_data: 'go_to_23' } ]];
  
 bot.action('go_to_22', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Инструкция к третьей части.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Инструкция к третьей части.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post22, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_22 })});
     });
 } );
@@ -248,7 +248,7 @@ bot.action('go_to_22', (ctx) => {
 const Keyboard_23 = [[ { text: 'Подведем итоги', callback_data: 'go_to_24' } ]];
  
 bot.action('go_to_23', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Инструкция к четвертой части.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Инструкция к четвертой части.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post23, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_23 })});
     });
 } );
@@ -259,7 +259,7 @@ const Keyboard_24 = [
 ];
  
 bot.action('go_to_24', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Подведем итоги.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './audio/Подведем итоги.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post24, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_24 })});
     });
 } );
@@ -279,7 +279,7 @@ process.once('SIGTERM', () => bot.stop('SIGTERM'));
 // ];
  
 // bot.action('go_to_N', (ctx) => {
-//     ctx.replyWithAudio({ source: './Audio/Рутина месяца.mp3'}).then(() => {
+//     ctx.replyWithAudio({ source: './audio/Рутина месяца.mp3'}).then(() => {
 //         ctx.replyWithHTML(posts.post3, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_N })});
 //     });
 // } );
