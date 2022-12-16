@@ -24,7 +24,7 @@ const Keyboard_2 = [[
     { text: 'К практике', callback_data: 'go_to_3' }]];
 
 bot.action('go_to_2', (ctx) => {
-    ctx.replyWithAudio({ source: './Audio/Determination of resourcefulness.mp3'}).then(() => {
+    ctx.replyWithAudio({ source: './Audio/Resourcefulness determination.mp3'}).then(() => {
         ctx.replyWithHTML(posts.post2, {reply_markup: JSON.stringify({ inline_keyboard: Keyboard_2 })});
     });
 } );
